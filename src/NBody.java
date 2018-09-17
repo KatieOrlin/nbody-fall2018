@@ -48,7 +48,7 @@ public class NBody {
 			
 			for(int k=0; k < nb; k++) {
 				/*
-				 * uses a for loop to create the array of Body objevts using the data in the file
+				 * uses a for loop to create the array of Body objects using the data in the file
 				 */
 				myArray[k] = new Body(s.nextDouble(), s.nextDouble(), s.nextDouble(), 
 						s.nextDouble(), s.nextDouble(), s.next());
