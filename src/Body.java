@@ -116,6 +116,10 @@ public class Body {
 		myYVel = nvy;
 		
 	}
+	
+	public void draw() {
+		StdDraw.picture(myXPos,  myYPos,  "images/"+myFilename);
+	}
 
 }
 
